@@ -54,6 +54,7 @@ header {
   list-style: none;
   column-gap: 10px;
   padding-right: 50px;
+  margin: 15px 0;
 }
 
 #main-navigation .link {
@@ -311,4 +312,33 @@ header {
       'project-5'
     ;
   }
+}
+
+.contact-list {
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.contact-list li {
+  
+  flex: 1;
+}
+
+.contact-list .contact-item {
+  font-size: 24px;
+  text-decoration: none;
+  padding: 0 5px;
+  color: var(--primary-color);
+  border-bottom: 3px solid var(--primary-color);
+}
+
+.contact-list li:hover > .contact-item {
+  color: var(--quaternary-color);
+  border-bottom-color: var(--quaternary-color);
 }
