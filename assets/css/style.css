@@ -130,3 +130,19 @@ header {
   color: var(--light-color);
   padding: 10px;
 }
+
+@media screen and (max-width: 768px) {
+  .hero-banner {
+    position: static;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    height: 150px;
+  }
+
+  .hero-caption {
+    position: static;
+  }
+}
