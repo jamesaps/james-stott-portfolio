@@ -43,8 +43,8 @@ header {
 }
 
 .site-title {
-  background-color: var(--secondary-color);
-  color: white;
+  background-color: var(--quaternary-color);
+  color: var(--primary-color);
   padding: 5px 20px 5px 100px;
   margin: 20px 0;
 }
@@ -65,8 +65,8 @@ header {
 }
 
 #main-navigation .link:hover {
-  color: var(--secondary-color);
-  border-bottom-color: var(--secondary-color);
+  color: var(--quaternary-color);
+  border-bottom-color: var(--quaternary-color);
 }
 
 @media screen and (max-width: 768px) {
@@ -129,12 +129,11 @@ main {
   position: absolute;
   right: 50px;
   bottom: 20px;
-  opacity: 0.9;
 }
 
 .hero-title {
-  background-color: var(--secondary-color);
-  color: var(--light-color);
+  background-color: var(--quaternary-color);
+  color: var(--primary-color);
   padding: 10px;
 }
 
