@@ -293,10 +293,20 @@ header {
   opacity: 0.9;
 }
 
-.work-grid-item .heading .project-title {
-
-}
-
 .work-grid-item .heading .technology {
   font-size: 12px;
+}
+
+@media screen and (max-width: 576px) {
+  .work-grid {
+    grid-template-rows: repeat(5, 150px);
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+      'project-1'
+      'project-2'
+      'project-3'
+      'project-4'
+      'project-5'
+    ;
+  }
 }
