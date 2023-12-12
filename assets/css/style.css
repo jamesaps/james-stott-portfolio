@@ -111,6 +111,10 @@ header {
   }
 }
 
+main {
+  margin-bottom: 40px;
+}
+
 .hero-banner {
   background-image: url(../images/02-hero-bg.jpg) ;
   background-position: center;
@@ -341,4 +345,14 @@ header {
 .contact-list li:hover > .contact-item {
   color: var(--quaternary-color);
   border-bottom-color: var(--quaternary-color);
+}
+
+footer {
+  background-color: var(--quaternary-color);
+  height: 75px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
