@@ -221,7 +221,7 @@ main {
 }
 
 .work-grid-item::before {
-  background-position: center;
+  background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -248,7 +248,7 @@ main {
 }
 
 #project-1::before {
-  background-image: url(../images/02-portfolio-4.jpg);
+  background-image: url(../images/horiseon-website-screenshot.png);
 }
 
 #project-2 {
@@ -256,7 +256,7 @@ main {
 }
 
 #project-2::before {
-  background-image: url(../images/02-portfolio-1.jpg);
+  background-image: url(../images/student-landing-page-screenshot.png);
 }
 
 #project-3 {
@@ -264,7 +264,7 @@ main {
 }
 
 #project-3::before {
-  background-image: url(../images/02-portfolio-2.jpg);
+  background-image: url(../images/prework-study-guide-screenshot.png);
 }
 
 #project-4 {
@@ -273,6 +273,7 @@ main {
 
 #project-4::before {
   background-image: url(../images/02-portfolio-3.jpg);
+  background-position: center;
 }
 
 #project-5 {
@@ -280,7 +281,8 @@ main {
 }
 
 #project-5::before {
-  background-image: url(../images/02-run-buddy.jpg);
+  background-image: url(../images/02-portfolio-1.jpg);
+  background-position: center;
 }
 
 .work-grid-item .heading {
