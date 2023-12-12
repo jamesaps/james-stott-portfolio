@@ -194,3 +194,63 @@ header {
     padding: 10px 0 0 0;
   }
 }
+
+.work-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 150px);
+  grid-template-areas: 
+    'project-1 project-1'
+    'project-1 project-1'
+    'project-2 project-3'
+    'project-4 project-5'
+  ;
+  gap: 10px;
+}
+
+#project-1 {
+  grid-area: project-1;
+}
+
+#project-2 {
+  grid-area: project-2;
+}
+
+#project-3 {
+  grid-area: project-3;
+}
+
+#project-4 {
+  grid-area: project-4;
+}
+
+#project-5 {
+  grid-area: project-5;
+}
+
+.work-grid-item {
+  border: 3px solid var(--tertiary-color);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.work-grid-item .heading {
+  background-color: var(--tertiary-color);
+  color: var(--light-color);
+  padding: 5px 20px;
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+}
+
+.work-grid-item .heading .project-title {
+
+}
+
+.work-grid-item .heading .technology {
+
+  font-size: 12px;
+}
