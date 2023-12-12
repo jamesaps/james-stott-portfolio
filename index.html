@@ -5,39 +5,90 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
+  <title>James Stott // Web Developer</title>
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1>Lernantino</h1>
+    <h1>James Stott</h1>
     <nav>
+      <ul id="main-navigation">
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+        <li><a href="#">Resume</a></li>
+      </ul>
     </nav>
   </header>
 
   <!-- hero banner -->
   <section class="hero-banner">
     <div>
-      <h2>Cool subtitle here!</h2>
+      <h2>Portfolio of Web Design Work</h2>
     </div>
   </section>
 
   <main class="page-wrapper">
     <!-- about me -->
     <section class="page-section" id="about">
-      <h2>About Me</h2>
+      <h2 class="section-title">About Me</h2>
+      <div class="section-content">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus non asperiores ut ipsam fuga numquam ea maiores hic nam voluptate. Officiis iure ratione aut molestias cumque! Repudiandae, esse? Voluptates, saepe?
+        </p>
+      </div>
     </section>
 
     <!-- portfolio container -->
     <section class="page-section" id="work">
-      <h2>Work</h2>
+      <h2 class="section-title">Work</h2>
+      <div class="section-content work-grid">
+        <div class="work-grid-item project-1">
+          <div class="heading">
+            <h3 class="project-title">Project 1</h3>
+            <h4 class="technology">Technology 1</h4>
+          </div>
+        </div>
+        <div class="work-grid-item project-2">
+          <div class="heading">
+            <h3 class="project-title">Project 2</h3>
+            <h4 class="technology">Technology 2</h4>
+          </div>
+        </div>
+        <div class="work-grid-item project-3">
+          <div class="heading">
+            <h3 class="project-title">Project 3</h3>
+            <h4 class="technology">Technology 3</h4>
+          </div>
+        </div>
+        <div class="work-grid-item project-4">
+          <div class="heading">
+            <h3 class="project-title">Project 4</h3>
+            <h4 class="technology">Technology 4</h4>
+          </div>
+        </div>
+        <div class="work-grid-item project-5">
+          <div class="heading">
+            <h3 class="project-title">Project 5</h3>
+            <h4 class="technology">Technology 5</h4>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- contact -->
     <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+      <h2 class="section-title">Contact Me</h2>
+      <div class="section-content">
+        <ul class="contact-list">
+          <li><a href="#">555.555.5555</a></li>
+          <li><a href="#">my@email.com</a></li>
+          <li><a href="#">GitHub</a></li>
+          <li><a href="#">Spotify</a></li>
+        </ul>
+      </div>
     </section>
   </main>
 </body>
