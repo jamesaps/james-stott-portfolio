@@ -22,7 +22,7 @@ git clone https://github.com/jamesaps/james-stott-portfolio.git
 ```
 
 ## Usage
-This site is designed to automatically deploy to github pages when changes are committed to the main branch.
+This site is designed to automatically deploy to github pages when changes are committed to the main branch. You can find a link to a live version of the site [here](https://jamesaps.github.io/james-stott-portfolio/).
 
 ## Credits
 Starter code for this project was provided by edX Boot Camps LLC.
